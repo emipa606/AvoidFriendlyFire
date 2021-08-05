@@ -10,7 +10,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1134165362
 	
 ![Image](https://i.imgur.com/NOW7jU1.png)
 
-Colonists with the option enabled will not take a shot if the projectile&apos;s path could hit a friendly or neutral pawn (taking into account miss radius). Drafted colonists will look for a target with a clean shot (or wait if there isn&apos;t one), while hunters will reposition themselves.
+Colonists with the option enabled will not take a shot if the projectile's path could hit a friendly or neutral pawn (taking into account miss radius). Drafted colonists will look for a target with a clean shot (or wait if there isn't one), while hunters will reposition themselves.
 
 This should hopefully alleviate some of the micromanagement needed to stop ranged colonists shooting friendlies, without changing the way friendly fire works in the game or reducing its potency.
 
@@ -18,11 +18,11 @@ This should hopefully alleviate some of the micromanagement needed to stop range
 == Usage ==
 Any colonist with an appropriate weapon will show an “Avoid Friendly Fire” toggle button when they are selected (which is On by default; you can toggle it off for individual colonists). With this On their AI will automatically do the right thing.
 
-If you manually try to force a drafted colonist who is set to avoid friendly fire to shoot an enemy with a friendly in the way, you will see a &quot;Cannot hit target&quot; message as you would if LoS was blocked.
+If you manually try to force a drafted colonist who is set to avoid friendly fire to shoot an enemy with a friendly in the way, you will see a "Cannot hit target" message as you would if LoS was blocked.
 
 Shooters who are being blocked by friendlies (but would otherwise have a target) will have their name on the map and in the Colonist Bar be written in cyan. Likewise, the first friendly blocking any shooter will show up in green.
 
-There is a setting in the Mod Options screen to always enable &apos;Avoid FF&apos; status on a pawn when it&apos;s undrafted. If you tend to disable the &apos;Avoid FF&apos; setting on pawns during combat, using this option will ensure it is always turned back on again before the next combat. This option is off by default.
+There is a setting in the Mod Options screen to always enable 'Avoid FF' status on a pawn when it's undrafted. If you tend to disable the 'Avoid FF' setting on pawns during combat, using this option will ensure it is always turned back on again before the next combat. This option is off by default.
 
 == Shield Belts ==
 Shooters will not worry about pawns wearing a shield belt with at least 10% power standing in the line of fire, so you can still use shielded infantry to attack while ranged troops continue to fire over them from behind. If the shield drops below 10% power while the pawn is still subject to friendly fire, then the shooters will stop. They will resume shooting after the shield gets above 10%.
@@ -31,7 +31,7 @@ This behaviour can be disabled from the mod options if needed.
 
 
 == Targeting Overlay ==
-If you use the game’s manual targeting button (the one with the B hotkey that then shows the weapons range), you will see a red overlay that appears from the shooter to where you point the mouse (see image). This overlay shows the potential “fire cone” from a standard ranged weapon in the game, from the shooter to a target under the mouse (miss radius depends on weapon and shooter skill). Any pawn within the red overlay could potentially be hit. This is purely a visual aid for planning and can be disabled from the Mod Settings menu if you don’t like it. Note that pawns within 4 tiles of the shooter do not receive friendly fire, so the overlay does not mark them red and the mod takes this into account when deciding if a shooter should stop. In the example image the shooter on the top right will not shoot the pirate on the bottom left because the colonist &quot;Flip&quot; could potentially get hit.
+If you use the game’s manual targeting button (the one with the B hotkey that then shows the weapons range), you will see a red overlay that appears from the shooter to where you point the mouse (see image). This overlay shows the potential “fire cone” from a standard ranged weapon in the game, from the shooter to a target under the mouse (miss radius depends on weapon and shooter skill). Any pawn within the red overlay could potentially be hit. This is purely a visual aid for planning and can be disabled from the Mod Settings menu if you don’t like it. Note that pawns within 4 tiles of the shooter do not receive friendly fire, so the overlay does not mark them red and the mod takes this into account when deciding if a shooter should stop. In the example image the shooter on the top right will not shoot the pirate on the bottom left because the colonist "Flip" could potentially get hit.
 
 
 == Animals ==
