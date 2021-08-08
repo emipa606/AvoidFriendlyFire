@@ -1,5 +1,11 @@
 # Changelog for AvoidFriendlyFire
 
+1.0.4.0 - Original updated, added end-of-life info
+
+
+1.0.3.0 - Original updated, added end of life info
+
+
 1.0.2.0 - Wrong license
 
 
